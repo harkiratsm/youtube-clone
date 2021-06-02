@@ -1,0 +1,71 @@
+.header-container{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    color: rgb(96, 96, 96);
+    
+    align-items: center;
+}
+.header-middle{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+#youtube-logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+#search{
+    width: 90%;
+    padding:1px 0px 3px 1px;
+    font-size: 15px;
+    border:none;
+    border-right: 2px solid #e7e7e7;
+}
+.search-bar{
+    display: flex;
+    width: 100%;
+    background-color: rgb(248,248,248);
+    height: 30px !important;
+    border: 2px solid #e7e7e7;
+}
+
+.header-middle >.search-bar > button> a {
+    width: 58px !important;
+    font-size: 20px;
+    margin-left: 15px;
+    align-self: center;
+    cursor: pointer;
+    color: rgb(151,151,151);
+    background-color: rgb(248,248,248);
+}
+.header-middle >.mic-btn{
+    color:rgb(96, 96, 96);
+    
+    align-self: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header-right > #video-btn ,#app-btn ,#notification-btn{
+    color: rgb(96, 96, 96);
+    margin-right: 20px;
+    
+    cursor: pointer;
+}
+.header-right > #avatar-btn{
+    color: rgb(96, 96, 96);
+    margin-right: 20px;
+    
+    cursor: pointer;
+}

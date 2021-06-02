@@ -1,0 +1,49 @@
+.video-container{    
+    width: 270px;
+    
+    margin-bottom: 20px;
+}
+.video-container  >img {
+    width: 250px;
+    height: 140px;
+    cursor: pointer;
+}
+.title-con{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.video-container >.title-con >.view-con>p{
+    color: gray;
+    cursor: pointer;
+}
+.view-con > h4 {
+    margin-top: -1%;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.view-con > p {
+    margin-top: -8.5%;
+}
+.video-container >.title-con>.view-con>h4{
+    width: 200px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}   
+.view-con{
+    margin-left: 0.7rem;
+}
+.Avatar-icons{
+    width: 30px !important;
+    height: 30px !important;
+    cursor: pointer;
+}
+.view-con > p > .isverified{
+    color: rgba(0, 0, 0, 0.616);
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.aside-container{
+    flex: 0.15;
+    
+}
+.aside-container >.sub-header{
+    color: rgb(96,96,96);
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 20px;
+}
+

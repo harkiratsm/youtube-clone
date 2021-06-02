@@ -1,0 +1,59 @@
+.video-result-container{    
+    width: 80%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.video-result-container  >img {
+    width: 350px;
+    
+    height: 200px;
+    cursor: pointer;
+}
+.title-result-con{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.video-result-container >.title-result-con >.view-result-con>p{
+    color: gray;
+    cursor: pointer;
+}
+.view-result-con > h4 {
+    margin-top: -1%;
+    font-weight: 480;
+    font-size: 19px;
+    cursor: pointer;
+}
+.view-result-con > .result-burah {
+    display: flex;
+    align-items: center;
+}
+.video-result-container >.title-result-con>.view-result-con>h4{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}   
+.view-result-con{
+    margin-left: 0.7rem;
+}
+.Avatar-result-icons{
+    width: 30px !important;
+    height: 30px !important;
+    cursor: pointer;
+}
+.view-result-con > p > .result-isverified{
+    color: rgba(0, 0, 0, 0.616);
+    width: 14px;
+    align-self: center;
+    height: 14px;
+    cursor: pointer;
+}
+.view-result-con > .result-descript{
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-height: 1.5;        /* fallback */
+    max-height: 3;       /* fallback */
+}
