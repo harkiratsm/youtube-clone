@@ -25,7 +25,7 @@ function Header({handleclick,searchlol,searchlol1}) {
             <div className="header-middle">
                 <div className="search-bar">
                     <input className="search-input" id="search" type="text" onChange={e => settermFromSearchBar(e.target.value) } value={termFromSearchBar} placeholder="Search"></input>
-                    <Link  to={`./youtube-clone/search`}><button className="search-box-btn"
+                    <Link  to={`./search`}><button className="search-box-btn"
                         onClick={()=>{
                             searchlol()
                             searchlol1()
