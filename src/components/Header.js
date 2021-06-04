@@ -18,7 +18,7 @@ function Header({handleclick,searchlol,searchlol1}) {
         <div className="header-container">
             <div className="header-left">
                 <MenuIcon />
-                <Link to={"/youtube-clone"}>
+                <Link to={"/"}>
                     <img  id="youtube-logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt='dsada'></img>
                 </Link>
             </div>
