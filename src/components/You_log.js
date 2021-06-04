@@ -11,6 +11,9 @@ function You_log({thumbnail,title,sub,vid,desc}) {
                     <p className="desc-con">{desc}</p>
                 </div>
             </div>
+            <div className="Subscribe-btn">
+                <button>Subscribe</button>
+            </div>
         </div>
     )
 }

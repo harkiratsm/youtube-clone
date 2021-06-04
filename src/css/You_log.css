@@ -5,6 +5,7 @@
 }
 .video-logo-container  >img {
     width: 290px;
+    min-width: 200px;
     height: 130px;
     border-radius:50%;
     margin-left: 10%;
@@ -12,6 +13,7 @@
 }
 .title-logo-con{
     display: flex;
+    width: 90%;
     margin-left: 10%;
     margin-top: 0.5rem;
 }
@@ -45,4 +47,23 @@
     -webkit-line-clamp: 2; /* number of lines to show */
     line-height: 1.5;        /* fallback */
     max-height: 3;       /* fallback */
+}
+.Subscribe-btn >button {
+    background-color:#CC0000 ;
+    color: #ffffff;
+    height: 37px;
+    width: 109.938px;
+    margin: 0 4px 0 4px;
+    min-height: auto;
+    min-width: 71.96px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none solid rgb(255,255,255);
+    text-transform: uppercase;
+    white-space: nowrap;
+    word-spacing: 0px;
+    border: none;
+    margin-top: 50%;
+    cursor: pointer;
 }

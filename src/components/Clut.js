@@ -40,7 +40,7 @@ function Clut({Icon,logochannel, thumbnail ,channelname, title, views, time,Isch
             <div className="title-result-con">                
                 <div className="view-result-con">
                     <h4>{title}</h4>
-                    <p>{views} &#183; {convertTime(time)}</p>
+                    <p>{views} views &#183; {convertTime(time)} ago</p>
                     <p className="result-burah"><Icon  className="result-Avatar-icons" src={logochannel}/> {channelname} <Ischecked className="result-isverified"/><br /></p>
                     <p className="result-descript">{description}</p>
                 </div>

@@ -18,20 +18,20 @@ function Header({handleclick,searchlol,searchlol1}) {
         <div className="header-container">
             <div className="header-left">
                 <MenuIcon />
-                <Link to={"/"}>
+                <Link to={"/youtube-clone"}>
                     <img  id="youtube-logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt='dsada'></img>
                 </Link>
             </div>
             <div className="header-middle">
                 <div className="search-bar">
-                    <input id="search" type="text" onChange={e => settermFromSearchBar(e.target.value) } value={termFromSearchBar} placeholder="Search"></input>
-                    <button 
+                    <input className="search-input" id="search" type="text" onChange={e => settermFromSearchBar(e.target.value) } value={termFromSearchBar} placeholder="Search"></input>
+                    <Link  to={`./search`}><button className="search-box-btn"
                         onClick={()=>{
                             searchlol()
                             searchlol1()
                             handleclick(termFromSearchBar)
                             
-                        }}><Link  to={`./search`}><SearchIcon className="search-btn" /></Link></button>
+                        }}><SearchIcon className="search-btn" /></button></Link>
                     
                 </div>
                 <Tooltip title="Search with Mic">
@@ -49,7 +49,7 @@ function Header({handleclick,searchlol,searchlol1}) {
                 <Tooltip title="Notifications">
                     <NotificationsIcon id="notification-btn"/>
                 </Tooltip>
-                <Tooltip>
+                <Tooltip title="Profile"> 
                     <Avatar id="avatar-btn" src={profile} />
                 </Tooltip>
                 

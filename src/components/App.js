@@ -41,8 +41,12 @@ function App() {
         
       })
       response.data.items.map(async(i)=>{
-        if(i.id.kind==="youtube#channel"){
-          setbackdata(prev=>[...prev,[{harry:"io"}]])
+        
+        if(i.id.kind=="youtube#channel"){
+          (await function (){
+            setbackdata(prev=>[...prev,{harry:"io"}])
+          })();
+          
         }
         else{
           const response2=await youtube.get('./videos',{
@@ -68,7 +72,7 @@ function App() {
     <Router>
       <Header handleclick={handleSubmit} searchlol={searchlol} searchlol1={searchlol1}/>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/youtube-clone">
           <div className="app-page">
             <Aside />          
             <Recommend /> 

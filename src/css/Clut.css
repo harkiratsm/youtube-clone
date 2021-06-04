@@ -6,7 +6,7 @@
 .video-result-container  >img {
     width: 350px;
     
-    height: 200px;
+    height: 200px;             
     cursor: pointer;
 }
 .title-result-con{
