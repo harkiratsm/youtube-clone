@@ -78,7 +78,7 @@ function App() {
             <Recommend /> 
           </div>
         </Route>
-        <Route path='/youtube-clone/search'>
+        <Route path='/search'>
             <div className="search-page">
               <Aside />
               <Search videos={videos} newdata={newdata} backdata={backdata} />
